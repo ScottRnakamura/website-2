@@ -12,20 +12,20 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-
+    <link rel="stylesheet" href="css" />
     <!-- Demo styles -->
     <style>
       html,
       body {
         position: relative;
-        height: 100%;
+        height: 400px;
       }
 
       body {
-        background: #eee;
+        background: black;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
-        color: #000;
+        color: #fff;
         margin: 0;
         padding: 0;
       }
@@ -33,12 +33,13 @@
       .swiper {
         width: 100%;
         height: 100%;
+        display: flex;
       }
 
       .swiper-slide {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
-        background: #fff;
+        background: black;
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -57,26 +58,77 @@
 
       .swiper-slide img {
         display: block;
-        width: 100%;
-        height: 100%;
+        width: 900px;
+        height: 400px;
         object-fit: cover;
+        border-radius: 25px;
       }
     </style>
   </head>
 
   <body>
+    <div class="top-banner">
+      <div class="top-banner-content">
+        <div class="topnav">
+          <a class="active" href="index.html">home</a>
+          <a href="page2">Top</a>
+          <a href="page3">Manga List</a>
+          <a href="page4">Recommended</a>
+        </div>
+      </div>
+    </div>
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">
+          <div class="info">
+            <h2 class="titleswipe">My Hero Academia</h2>
+            <div class="synopsis">
+              The series focuses on a middle school student Izuku Midoriya, who
+              has no superpowers. Will he be able to become a hero and somehow
+              to contribute to the peace and stability in the world, where the
+              weak is the minority that needs to be defended.
+            </div>
+          </div>
+          <img src="img/mha.jpg" alt="mha" />
+        </div>
+
+        <div class="swiper-slide">
+          <div class="info">
+            <h2 class="title swipe">Jujutsu Kaisen</h2>
+            <div class="synopsis">
+              Yuji Itadori, a kind-hearted teenager, joins his school's Occult
+              Club for fun, but discovers that its members are actual sorcerers
+              who can manipulate the energy between beings for their own use. He
+              hears about a cursed talisman - the finger of Sukuna, a demon -
+              and its being targeted by other cursed beings.
+            </div>
+          </div>
+          <img src="img/jjk.webp" alt="jjk" />
+          
+        </div>
+
+        <div class="swiper-slide">
+          <img src="img/Kaiju-no-8-chapter-raw.jpg" alt="monster8" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="img/onepiece.webp" alt="onepiece" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="img/tg.jpg" alt="tokyoghoul" />
+        </div>
+
+        <div class="swiper-slide">
+          <p>Black Cover</p>
+          <img src="img/bc.jpg" alt="blackclover" />
+        </div>
+
+        <div class="swiper-slide">
+          <p>Chainsaw Man</p>
+          <img src="img/chainsaw man.jpg" alt="Chainsawman" />
+        </div>
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
@@ -92,7 +144,7 @@
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 10000000,
           disableOnInteraction: false,
         },
         pagination: {
@@ -103,6 +155,7 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        loop: true,
       });
     </script>
   </body>

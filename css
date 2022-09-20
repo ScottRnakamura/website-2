@@ -11,12 +11,16 @@ body {
 
 .top-banner-content {
   padding: 16px;
+  display: flex;
 }
 
 .topnav {
   background-color: rgb(22, 23, 24);
   display: flex;
-  
+  flex: 2;
+  justify-content: flex-start;
+  margin-top: 45px;
+  margin-left: -250px;
 }
 
 .topnav a {
@@ -25,14 +29,11 @@ body {
   text-align: center;
   font-size: 17px;
 }
+
 .topnav a:hover {
   background-color: gray;
   color: black;
-}
-
-.topnav a.active {
-background-color: rgb(22, 23, 24);
-color: black;
+  margin-bottom: 50px;
 }
 
 .topnav .icon{
@@ -40,7 +41,7 @@ color: black;
 }
 
 .info {
-
+ margin: 0px 100px 0px 20px;
 }
 
 .titleswipe {
@@ -48,6 +49,10 @@ color: black;
   font-size: 40px;
 }
 
-.synopsis {
-  text-align: left;
+.websitetitle {
+  font-family: Arial Rounded MT Bold, serif;
+  font-size: 40px;
+  display: flex;
+  flex: 1;
+  margin-right: 0px;
 }

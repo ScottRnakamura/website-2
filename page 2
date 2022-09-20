@@ -11,20 +11,15 @@
   />
 </head>
 <body>
-    <div class="top-banner">
-        <div class="top-banner-content">
-          <div class="websitetitle">
-            <a href="index.html">
-              <p>MANGA HERE</p>
-            </a>
-          </div>
-          <div class="topnav">
-            <a class="active" href="index.html">home</a>
-            <a href="page2">Top</a>
-            <a href="page3">Manga List</a>
-            <a href="page4">Recommended</a>
-          </div>
+    <nav class="top-banner">
+        <div class="websitetitle">
+          <a href="index.html"> 
+            <strong>MANGA HERE</strong>
+          </a>
         </div>
-      </div>
+        <a href="page2">Top</a>
+        <a href="page3">Manga List</a>
+        <a href="page4">Recommended</a>
+      </nav>
 </body>
 </html>

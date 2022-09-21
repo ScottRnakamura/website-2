@@ -132,10 +132,128 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
+    <div class="hot">
+      <div class="hottitle">
+        <strong>Hot!</strong>
+      </div>
+      <div class="hotcontent">
+        <div class="hotmanga">
+          <img class="mangacover" alt="readmanga" src="/hotmanaga/BLEACH.png" />
+          <p class="mangatitle">BLEACH</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Demon SLayer.png"
+          />
+          <p class="mangatitle">Demon Slayer</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Fairy Tail- 100 Years Quest.jpg"
+          />
+          <p class="mangatitle">Fairy Tail: 100 Years Quest</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/ghostbuster.jpg"
+          />
+          <p class="mangatitle">Ghostbuster Osamu</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Kaguya-sama wa Kokurasetai.png"
+          />
+          <p class="mangatitle">Kaguya-sama wa Kokurasetai</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/monster 8.jpg"
+          />
+          <p class="mangatitle">Monster 8</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Kengan Omega.png"
+          />
+          <p class="mangatitle">Kenga Omega</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Kubo-san wa Mob wo Yurusanai.jpg"
+          />
+          <p class="mangatitle">Kubo-san wa Mob wo Yurusanai</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/One punch man.jpg"
+          />
+          <p class="mangatitle">One Punch Man</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/skeleton double.jpg"
+          />
+          <p class="mangatitle">Skeleton Double</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Tokyo revengers.jpg"
+          />
+          <p class="mangatitle">Tokyo Revengers</p>
+        </div>
+        <div class="hotmanga">
+          <img
+            class="mangacover"
+            alt="readmanga"
+            src="/hotmanaga/Yofukashi no Uta.jpg"
+          />
+          <p class="mangatitle">Yofukashi no Uta</p>
+        </div>
+      </div>
+    </div>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 10000000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop: true,
+      });
+    </script>
   </body>
 </html>

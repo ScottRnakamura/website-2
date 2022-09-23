@@ -184,33 +184,37 @@ a:visited {
 .main-page {
   text-align: center;
   font-family: Arial Rounded MT Bold, serif;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
-.main-list {
+#main-list {
   background-color: black;
   color: white;
-  display: flex;
-  padding-left: 700px;
   margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.main-list a:hover {
+#main-list a:hover {
  color:rgb(255, 179, 0);
 }
 
-.main-list a {
-  display: block;
+#main-list a {
   padding: 16px 14px;
-  text-align: center;
   font-size: 17px;
   text-decoration: none;
 }
 
 .logo {
-width: 250px;
+width: 200px;
 height: 60px;
 margin: 0 auto;
-display: block;
+padding-top: 30px;
+font-size: 30px;
 }
 
 .list {
@@ -222,7 +226,32 @@ display: block;
   display: block;
 }
 
-.luffy {
-  display: flex;
-  background-image: url("luffy.png");
+.luffy img {
+  justify-content: center;
+}
+
+.homepage {
+background: #fbc32e;
+height: 60px;
+line-height: 60px;
+padding: 0 20px;
+margin-top: 5%;
+border-radius: 50rem;
+font-size: 1.5rem;
+color: #222;
+font-weight: 600;
+}
+
+.pagebottom {
+  text-align: left;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
 }

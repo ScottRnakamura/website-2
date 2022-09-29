@@ -114,7 +114,6 @@ a:visited {
   -webkit-box-pack: justify;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
-
 }
 
 .hottitle {
@@ -128,7 +127,6 @@ a:visited {
   background: linear-gradient(90deg,#000,transparent);
   position: relative;
   z-index: 0;
-  
 }
 
 .hotcontent {
@@ -264,7 +262,6 @@ font-weight: 600;
   -webkit-box-pack: justify;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
-
 }
 
 .mangalisttitle {
@@ -309,7 +306,6 @@ font-weight: 600;
 
 .u_mangalist:hover {
   cursor: pointer;
-
 }
 
 .u_mangalist:hover img{
@@ -359,7 +355,6 @@ line-height: 1.2rem;
   margin-bottom: 30px;
   display: block;
   background-color: #222;
-
 }
 
 .mhanews a{
@@ -384,11 +379,9 @@ line-height: 1.2rem;
   font-size: 28px;
   line-height: 1.15;
   margin-bottom: 10px;
-
 }
 
 .captionhead {
   font-weight: 700;
   margin-bottom: 15px;
-
 }
